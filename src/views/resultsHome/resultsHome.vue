@@ -1,6 +1,6 @@
 <template>
     <div style="overflow: hidden">
-        <button @click="changeUrl('testWatch')">toTest</button>
+        <!--<button @click="changeUrl('testWatch')">toTest</button>-->
          <van-loading style="margin: 4rem auto" v-if='isloading' size="24px" vertical>加载中...</van-loading>
         <div v-if="replace"
             style="display: flex;flex-direction: column;align-items: center;margin-top: 3rem"
